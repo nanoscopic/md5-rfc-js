@@ -1,0 +1,13 @@
+<script src="md5_rfc.js"></script>
+<script>
+
+
+
+function go() {
+  var bytes = 'test';
+  var parts = calc_md5( bytes );
+  alert( parts[0] + '-' + parts[1] + '-' + parts[2] + '-' + parts[3] );
+}
+</script>
+<body onload="go()">
+</body>
